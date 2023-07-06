@@ -1,0 +1,35 @@
+.cv-photo {
+  width: 300px;
+  border-radius: 150px;
+}
+
+.menu-nav {
+  background-color: #f2f2f2;
+}
+
+.menu-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.menu-list-point {
+  margin-right: 20px;
+}
+
+.menu-list-point:last-child {
+  margin-right: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+figure,
+.name-and-position,
+.name,
+.position {
+  display: inline;
+}
