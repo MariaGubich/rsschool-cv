@@ -20,3 +20,45 @@ Simultaneously, my unwavering passion for technology has driven me to explore an
 I am highly motivated to combine my expertise in education with my technical skills to create innovative and user-friendly digital experiences. My goal is to leverage my teaching background, attention to detail, and creativity to contribute to the development of interactive and visually appealing websites and applications.
 
 By bridging my experience as an English teacher with my growing proficiency in frontend development, I aim to create seamless user experiences that enhance communication and learning. I am excited about the endless possibilities that lie ahead in this dynamic field and look forward to embracing new challenges as I embark on my journey to become a successful frontend developer."
+### __Skills and Proficiency:__
+* HTML5, CSS3
+* JavaScript Basics
+* Git, GitHub
+* VS Code
+### __Code Example:__
+``` css
+header {
+  height: 55px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.left-section {
+  background-color: lightblue;
+  width: 150px;
+  
+}
+
+.middle-section {
+  background-color: lightcoral;
+  flex: 1;
+  margin-left: 70px;
+  margin-right: 35px;
+  max-width: 500px;
+}
+
+.right-section {
+  background-color: lightblue;
+  width: 200px;
+
+}
+```
+### __Courses:__
+* HTML, CSS full course
+* RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
+### __Languages:__
+* English - Advanced (according to the online test at [EFset Logo](www.efset.org))
+![certificate](https://github.com/MariaGubich/rsschool-cv/blob/gh-pages/Screenshot_699.png)
+* Russian - Native
+* Spanish - Elementary
