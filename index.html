@@ -13,8 +13,8 @@
     <nav class="menu-nav">
       <ul class="menu-list">
         <li class="menu-list-point"><a href="#skills">SKILLS</a></li>
-        <li class="menu-list-point"><a href="#education">EDUCATION</a></li>
         <li class="menu-list-point"><a href="#code">CODE</a></li>
+        <li class="menu-list-point"><a href="#education">EDUCATION</a></li>
         <li class="menu-list-point"><a href="#languages">LANGUAGES</a></li>
         <li class="menu-list-point"><a href="#contacts">CONTACTS</a></li>
       </ul>
@@ -39,32 +39,82 @@
     <section id="skills">
       <h3>Skills:</h3>
     <article>
-      <ul>
-        <li>HTML5, CSS3</li>
-        <li>JavaScript Basics</li>
-        <li>Git, GitHub</li>
-        <li>VS Code</li>
-        <li>Figma</li>
+      <ul class="skills">
+        <li class="skill-item" id="html">HTML5</li>
+        <li class="skill-item" id="css">CSS3</li>
+        <li class="skill-item" id="js">JavaScript Basics</li>
+        <li class="skill-item" id="git">Git, GitHub</li>
+        <li class="skill-item" id="vs">VS Code</li>
+        <li class="skill-item" id="figma">Figma</li>
       </ul>
     </article>
     </section>
     <section id="code">
+      <h3>Code example:</h3>
+    <article>
+      The given function addNumbers(a, b) takes two numbers as input arguments, adds them together, and returns the sum.
+      <pre>
+        function addNumbers(a, b) {
+          var sum = a + b;
+          return sum;
+        }
+        
+        // Calling the function and storing the result in a variable
+        var result = addNumbers(5, 3);
+       
+        // Outputting the result to the console
+        console.log("Sum of numbers: " + result);      
+      </pre>
+    </article>
     </section>
     <section>
       <h3 id="education">Education and courses:</h3>
     <article>
-      MSLU 
+      <table>
+        <tr>
+          <td>2020-now</td>
+          <td>Bachelor's degree</td>
+          <td>Foreign Language Teacher (English)</td>
+          <td>Minsk State Linguistic University</td>
+        </tr>
+        <tr>
+          <td>July 2023- now</td>
+          <td>in progress</td>
+          <td>Frontend developer</td>
+          <td>Skillbox</td>
+        </tr>
+        <tr>
+          <td>June 2023-now</td>
+          <td>in progress</td>
+          <td>Javascript/Front-End Program</td>
+          <td>Rolling Scopes school</td>
+        </tr>
+      </table>      
     </article>
     </section>
     <section id="languages">
       <h3>Languages</h3>
+    <article class="languages"> 
+      <div class="english">English: Advanced(C1)</div>
+      <div class="russian">Russian, Belorussian: native</div>
+      <div class="spanish">Spanish: basic</div>
+    </article>
     </section>
     <section id="contacts">
-      <a href="https://www.linkedin.com/in/maria-gubich-885347237/" target="_blank">LinkedIn</a>
-      <a href="https://t.me/kitikmur" target="_blank">Telegram</a>  
+      <h3>Contact information</h3>
+    <article>
+      <ul class="contacts-ul">
+        <li class="contact-item" id="e-mail">E-mail: eng.mari.gubich@gmail.com</li>
+        <li class="contact-item" id="telegram"><a class="contacts" href="t.me/kitikmur">Telegram</a></li>
+        <li class="contact-item" id="linkedin"><a class="contacts" href="www.linkedin.com/in/maria-gubich-885347237">LinkedIn</a></li>
+      </ul>
+    </article>
     </section>
     <footer>
-      <p>&#169;2023 by Maria Hubich</p>
+      <p class="copyright">&#169;2023 by Maria Hubich</p>
+      <a href="https://github.com/MariaGubich" target="_blank">
+        <img class="github-logo" src="assets/img/github-icon.png" alt="github">
+      </a>
       <a href="https://rs.school/js-stage0/" target="_blank"  >
         <img class="rs-logo" src="assets/img/logo_rs_text.svg" alt="rs-logo">
       </a>
