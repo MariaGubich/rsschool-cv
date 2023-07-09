@@ -64,15 +64,6 @@ a {
   color: #000000;
 }
 
-@media screen and (max-width: 768px) {
-  .menu-list {
-    flex-direction: column;
-  }
-  .menu-list-point {
-    margin-right: 0;
-    margin-bottom: 10px;
-  }
-}
 .menu-list-point::after {
   content: "";
   display: block;
@@ -80,22 +71,6 @@ a {
   height: 1px;
   background-color: #000000;
   margin-top: 5px;
-}
-@media screen and (max-width: 768px) {
-  .menu-list-point::after {
-    content: "";
-    display: block;
-    width: 100%;
-    height: 1px;
-    background-color: #000000;
-    margin-top: 5px;
-}
-}
-
-@media screen and (min-width: 769px) {
-  .menu-list-point::after {
-    content: none;
-  }
 }
 
 .content-wrapper {
@@ -179,12 +154,6 @@ figure,
   align-items: center;
 }
 
-@media screen and (max-width: 768px) {
-  .content-wrapper {
-    flex-direction: column;
-    margin-top: 190px;
-  }
-}
 table {
   vertical-align: middle;
   border-spacing: 15px;
@@ -196,13 +165,6 @@ table {
   border-radius: 15px;
 }
 
-@media screen and (max-width: 768px) {
-  table {
-    display: block;
-    overflow-x: auto;
-  }
-}
-
 pre {
   background-color: rgba(0, 0, 0, 0.1);
   border: none;
@@ -210,13 +172,6 @@ pre {
   margin: 10px 25px;
   padding-top: 15px;
 
-}
-
-@media screen and (max-width: 600px) {
-  pre {
-    white-space: pre-wrap;
-    overflow-x: hidden;
-  }
 }
 
 .languages {
@@ -229,17 +184,6 @@ pre {
   font-weight: bold;
 }
 
-@media screen and (max-width:768px) {
-  .languages {
-    flex-direction: column;
-    justify-content:center;
-    align-items: center;
-  }
-  .english,
-  .russian {
-    margin-bottom: 15px;
-  }
-}
 .english,
 .russian,
 .spanish,
@@ -328,9 +272,51 @@ footer p, footer a {
   padding-right: 40px;
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
+  .menu-list {
+    flex-direction: column;
+  }
+  .menu-list-point {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
   footer p, footer a {
     display: block;
     margin: 10px 0;
+  }
+  .languages {
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+  }
+  .english,
+  .russian {
+    margin-bottom: 15px;
+  }
+  pre {
+    white-space: pre-wrap;
+    overflow-x: hidden;
+  }
+  table {
+    display: block;
+    overflow-x: auto;
+  }
+  .content-wrapper {
+    flex-direction: column;
+    margin-top: 190px;
+  }
+  .menu-list-point::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #000000;
+    margin-top: 5px;
+  }
+}
+
+@media (min-width: 769px) {
+  .menu-list-point::after {
+    content: none;
   }
 }
